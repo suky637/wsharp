@@ -25,7 +25,14 @@ enum TokenType
     REGISTER,
     EQUAL,
     OPERATION,
-    INCLUDE
+    INCLUDE,
+    IF_STATEMENT,
+    STA_EQUAL,
+    STA_GREATER,
+    STA_LOWER,
+    STA_GREATER_EQ,
+    STA_LOWER_EQ,
+    STA_NEQUAL
 };
 
 struct Token
@@ -55,7 +62,9 @@ enum Parsed_TokenType
     P_SUB,
     P_MUL,
     P_DIV,
-    P_INCLUDE
+    P_INCLUDE,
+    P_IF,
+    P_REG
 };
 
 struct Parsed_Token
@@ -181,9 +190,62 @@ std::vector<Token> lexer(std::string text)
         }
         else if (c == '=')
         {
+            if (text.at(i+1) != '=')
+            {
             tok.type = TokenType::EQUAL;
             tok.val = "";
             tokens.push_back(tok);
+            }
+            else
+            {
+                tok.type = TokenType::STA_EQUAL;
+                tok.val = "";
+                tokens.push_back(tok);
+            }
+        }
+        else if (c == '>')
+        {
+            if (text.at(i+1) != '=')
+            {
+                tok.type = TokenType::STA_GREATER;
+                tok.val = "";
+                tokens.push_back(tok);
+            }
+            else
+            {
+                tok.type = TokenType::STA_GREATER_EQ;
+                tok.val = "";
+                tokens.push_back(tok);
+            }
+        }
+        else if (c == '<')
+        {
+            if (text.at(i+1) != '=')
+            {
+                tok.type = TokenType::STA_LOWER;
+                tok.val = "";
+                tokens.push_back(tok);
+            }
+            else
+            {
+                tok.type = TokenType::STA_LOWER_EQ;
+                tok.val = "";
+                tokens.push_back(tok);
+            }
+        }
+        else if (c == '!')
+        {
+            if (text.at(i+1) == '=')
+            {
+                tok.type = TokenType::STA_NEQUAL;
+                tok.val = "";
+                tokens.push_back(tok);
+            }
+            else
+            {
+                std::cerr << "[LEXING ERROR] character '!' isn't accompagned with an '='.";
+                exit(1);
+            }
         }
         else if (c == '+')
         {
@@ -219,7 +281,6 @@ std::vector<Token> lexer(std::string text)
                 i++;
             }
             i--;
-
             
             if (buffer == "exit")
             {
@@ -305,9 +366,15 @@ std::vector<Token> lexer(std::string text)
                 tok.val = "R9";
                 tokens.push_back(tok);
             }
-            else if (buffer == "import")
+            else if (buffer == "using")
             {
                 tok.type = TokenType::INCLUDE;
+                tok.val = "";
+                tokens.push_back(tok);
+            }
+            else if (buffer == "if")
+            {
+                tok.type = TokenType::IF_STATEMENT;
                 tok.val = "";
                 tokens.push_back(tok);
             }
@@ -447,9 +514,71 @@ std::vector<Parsed_Token> parser(std::vector<Token> tokens)
             }
             ptokens.push_back(buffer);
         }
+        else if (tokens.at(i).type == TokenType::IF_STATEMENT && (tokens.at(i+1).type == TokenType::NUMBER || tokens.at(i+1).type == TokenType::REGISTER) && (tokens.at(i+3).type == TokenType::NUMBER || tokens.at(i+3).type == TokenType::REGISTER))
+        {
+            buffer.type = P_IF;
+            // verify type
+            if (tokens.at(i+2).type == TokenType::STA_EQUAL)
+            {
+                buffer.val = "je";
+            }
+            else if (tokens.at(i+2).type == TokenType::STA_GREATER)
+            {
+                buffer.val = "jg";
+            }
+            else if (tokens.at(i+2).type == TokenType::STA_GREATER_EQ)
+            {
+                buffer.val = "jge";
+            }
+            else if (tokens.at(i+2).type == TokenType::STA_LOWER)
+            {
+                buffer.val = "jl";
+            }
+            else if (tokens.at(i+2).type == TokenType::STA_LOWER_EQ)
+            {
+                buffer.val = "jle";
+            }
+            else if (tokens.at(i+2).type == TokenType::STA_NEQUAL)
+            {
+                buffer.val = "jne";
+            }
+
+            buffer.params = {};
+            if (tokens.at(i+1).type == NUMBER)
+            {
+                Parsed_Token pt{};
+                pt.type = P_INT;
+                pt.val = tokens.at(i+1).val;
+                buffer.params.push_back(pt);
+            }
+            else if (tokens.at(i+1).type == REGISTER)
+            {
+                Parsed_Token pt{};
+                pt.type = P_REG;
+                pt.val = tokens.at(i+1).val;
+                buffer.params.push_back(pt);
+            }
+
+            if (tokens.at(i+3).type == NUMBER)
+            {
+                Parsed_Token pt{};
+                pt.type = P_INT;
+                pt.val = tokens.at(i+3).val;
+                buffer.params.push_back(pt);
+            }
+            else if (tokens.at(i+3).type == REGISTER)
+            {
+                Parsed_Token pt{};
+                pt.type = P_REG;
+                pt.val = tokens.at(i+3).val;
+                buffer.params.push_back(pt);
+            }
+
+            i += 4;
+        }
         else if (tokens.at(i).type == TokenType::REGISTER && tokens.at(i+1).type == TokenType::EQUAL)
         {
-            if (tokens.at(i+2).type == TokenType::NUMBER)
+            if (tokens.at(i+2).type == TokenType::NUMBER || tokens.at(i+2).type == TokenType::REGISTER)
             {
                 buffer.type = P_SET_REG;
                 buffer.val = tokens.at(i).val;
@@ -469,7 +598,7 @@ std::vector<Parsed_Token> parser(std::vector<Token> tokens)
                     // Operations
                     int j = i+3;
                     bool operation = true;
-                    while ((operation && tokens.at(j).type == TokenType::OPERATION) || (!operation && tokens.at(j).type == TokenType::NUMBER))
+                    while ((operation && tokens.at(j).type == TokenType::OPERATION) || (!operation && (tokens.at(j).type == TokenType::NUMBER || tokens.at(j).type == TokenType::REGISTER)))
                     {
 
                         if (operation)
@@ -499,7 +628,15 @@ std::vector<Parsed_Token> parser(std::vector<Token> tokens)
                         {
                             buffer.params.clear();
                             Parsed_Token lc_pt{};
-                            lc_pt.type = P_INT;
+                            if (tokens.at(j).type == NUMBER)
+                            {
+                                lc_pt.type = P_INT;
+                            }
+                            else
+                            {
+                                lc_pt.type = P_REG;
+                                
+                            }
                             lc_pt.val = tokens.at(j).val;
                             buffer.params.push_back(lc_pt);
                             ptokens.push_back(buffer);

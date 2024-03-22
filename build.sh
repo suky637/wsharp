@@ -1,2 +1,2 @@
 cmake --build bin/
-./bin/wsharp -o main -f main.ws -asm
+./bin/wsharp -o test/main -f test/main.ws -asm
