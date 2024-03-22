@@ -1,0 +1,3 @@
+/home/suky/dev/compiler/wsharp/bin/CMakeFiles/wsharp.dir
+/home/suky/dev/compiler/wsharp/bin/CMakeFiles/edit_cache.dir
+/home/suky/dev/compiler/wsharp/bin/CMakeFiles/rebuild_cache.dir
