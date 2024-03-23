@@ -1,5 +1,5 @@
-%include "write_int"
 %include "quick_io"
+%include "write_int"
 global _start
 
 section .text
@@ -7,16 +7,29262 @@ _start:
 	mov rax, 0x1
 	mov rdi, 1
 	mov rsi, str_0
-	mov rdx, 23
+	mov rdx, 24
 	syscall
 
-	call quickInput
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
 
 	mov rax, 0x1
 	mov rdi, 1
-	mov rsi, RSI
-	mov rdx, 128
+	mov rsi, str_0
+	mov rdx, 24
 	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
+
+	mov rax, 0x1
+	mov rdi, 1
+	mov rsi, str_0
+	mov rdx, 24
+	syscall
+
+	mov RAX, 100
+	call writeInt
+
+	call writeEOL
 
 	mov rax, 0x3C
 	mov rdi, 0
@@ -26,4 +29272,4 @@ _start:
 
 
 section .data
-str_0: db "Please write any text: "
+str_0: db "This is number written: "

@@ -45,22 +45,13 @@ std::vector<Parsed_Token> Compiler::parser(std::vector<Token> tokens)
     Parsed_Token buffer{};
     int i = 0;
 
-    #ifdef DEBUG_TOKEN
-    int k = 0;
-    for (Token tok : tokens)
-    {
-        std::cout << k << " * " << tok.type << " * " << tok.val << "\n";
-        k++;
-    }
-    #endif
-
     while (i < tokens.size())
     {
+        buffer = {};
         if (tokens.at(i).type == TokenType::FUNCTION && tokens.at(i+1).type == TokenType::UNKNOWN && tokens.at(i+2).type == TokenType::START_BLOCK)
         {
             buffer.type = P_FUNCTION;
             buffer.val = tokens.at(i+1).val;
-            buffer.params = {};
             ptokens.push_back(buffer);
 
             i += 3;
@@ -68,8 +59,6 @@ std::vector<Parsed_Token> Compiler::parser(std::vector<Token> tokens)
         else if (tokens.at(i).type == TokenType::END_BLOCK)
         {
             buffer.type = P_EOF;
-            buffer.val = "";
-            buffer.params = {};
             ptokens.push_back(buffer);
             i += 1;
         }
@@ -77,7 +66,6 @@ std::vector<Parsed_Token> Compiler::parser(std::vector<Token> tokens)
         {
             buffer.type = P_INCLUDE;
             buffer.val = tokens.at(i+1).val;
-            buffer.params = {};
             ptokens.push_back(buffer);
             i += 2;
         }
@@ -85,7 +73,6 @@ std::vector<Parsed_Token> Compiler::parser(std::vector<Token> tokens)
         {
             buffer.type = P_GLOBAL;
             buffer.val = tokens.at(i+1).val;
-            buffer.params = {};
             ptokens.push_back(buffer);
             i += 2;
         }
@@ -97,7 +84,6 @@ std::vector<Parsed_Token> Compiler::parser(std::vector<Token> tokens)
             // TODO: do it to any functions
             if (tokens.at(i+1).type == TokenType::START_BLOCK && tokens.at(i+2).type == TokenType::END_BLOCK)
             {
-                buffer.params = {};
                 i += 3;
             }
             else if (tokens.at(i+1).type == TokenType::START_BLOCK)
@@ -144,7 +130,6 @@ std::vector<Parsed_Token> Compiler::parser(std::vector<Token> tokens)
                 buffer.val = "jne";
             }
 
-            buffer.params = {};
             if (tokens.at(i+1).type == NUMBER)
             {
                 Parsed_Token pt{};
@@ -187,9 +172,6 @@ std::vector<Parsed_Token> Compiler::parser(std::vector<Token> tokens)
                 Parsed_Token c_pt{};
                 c_pt.type = P_INT;
                 c_pt.val = tokens.at(i+2).val;
-                buffer.params = {};
-
-
 
                 buffer.params.push_back(c_pt);
                 ptokens.push_back(buffer);
@@ -227,7 +209,6 @@ std::vector<Parsed_Token> Compiler::parser(std::vector<Token> tokens)
                         }
                         else
                         {
-                            buffer.params.clear();
                             Parsed_Token lc_pt{};
                             if (tokens.at(j).type == NUMBER)
                             {

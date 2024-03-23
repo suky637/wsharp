@@ -3,179 +3,92 @@
 std::vector<Token> Compiler::lexer(std::string text)
 {
     std::vector<Token> tokens{};
-    std::string buffer = "";
-    std::string string_buffer = "";
+    tokens.reserve(text.size() / 2); // Reserve space for tokens to avoid frequent reallocations
+    std::string buffer;
     bool is_doing_string = false;
     
-    for (int i = 0; i < text.size(); i++)
+    for (size_t i = 0; i < text.size(); ++i)
     {
         Token tok;
         char c = text.at(i);
 
         if (is_doing_string)
         {
-            while (text.at(i) != '"')
-            {
-                string_buffer += text.at(i);
-                i++;
-                continue;
+            while (text.at(i) != '"') {
+                buffer += text.at(i);
+                ++i;
             }
-            #ifdef DEBUG
-            std::cout << "String\n";
-            #endif
             is_doing_string = false;
             tok.type = TokenType::STRING;
-            tok.val = string_buffer;
-            tokens.push_back(tok);
-            string_buffer = "";
-            //buffer = "";
+            tok.val = std::move(buffer);
+            tokens.push_back(std::move(tok));
         }
         else if (std::isdigit(c))
         {
-            while (std::isdigit(text.at(i)))
-            {
-                buffer += text.at(i);
-                i++;
+            buffer += c;
+            while (std::isdigit(text.at(i + 1))) {
+                buffer += text.at(++i);
             }
-            i--;
-
-            #ifdef DEBUG
-            std::cout << "Number\n";
-            #endif
             tok.type = TokenType::NUMBER;
-            tok.val = buffer;
-            tokens.push_back(tok);
+            tok.val = std::move(buffer);
+            tokens.push_back(std::move(tok));
             //buffer = "";
         }
         else if (std::isspace(text.at(i)))
         {
             continue;
         }
-        else if (c == '{')
-        {
-            #ifdef DEBUG
-            std::cout << "Open block\n";
-            #endif
-            tok.type = TokenType::START_BLOCK;
-            tok.val = "";
-            tokens.push_back(tok);
-        }
-        else if (c == '}')
-        {
-
-            #ifdef DEBUG
-            std::cout << "Close Block\n";
-            #endif
-            tok.type = TokenType::END_BLOCK;
-            tok.val = "";
-            tokens.push_back(tok);
-        }
-        else if (c == ',')
-        {
-            #ifdef DEBUG
-            std::cout << "Comma\n";
-            #endif
-            tok.type = TokenType::COMMA_SEP;
-            tok.val = "";
-            tokens.push_back(tok);
-        }
+        
         else if (c == '"')
         {
             is_doing_string = true;
         }
         else if (c == '=')
         {
-            if (text.at(i+1) != '=')
-            {
-            tok.type = TokenType::EQUAL;
             tok.val = "";
-            tokens.push_back(tok);
-            }
-            else
-            {
+            if (text.at(i + 1) == '=') {
+                ++i;
                 tok.type = TokenType::STA_EQUAL;
-                tok.val = "";
+            } else {
+                tok.type = TokenType::EQUAL;
+            }
+            tokens.push_back(std::move(tok));
+        }
+        else if (c == '{' || c == '}' || c == ',' || c == '+' || c == '-' || c == '*' || c == '/') {
+            // Single character tokens
+            tok.val = c;
+            switch (c) {
+                case '{': tok.type = TokenType::START_BLOCK; break;
+                case '}': tok.type = TokenType::END_BLOCK; break;
+                case ',': tok.type = TokenType::COMMA_SEP; break;
+                case '+': case '-': case '*': case '/':
+                    tok.type = TokenType::OPERATION; break;
+            }
+            tokens.push_back(std::move(tok));
+        } 
+        else if (c == '>' || c == '<' || c == '!') {
+            // Handle '>', '<', '>=', '<=', '!='
+            if (i + 1 < text.size() && text[i + 1] == '=') {
+                tok.type = (c == '>') ? TokenType::STA_GREATER_EQ :
+                           (c == '<') ? TokenType::STA_LOWER_EQ :
+                                        TokenType::STA_NEQUAL;
+                tok.val = (c == '!') ? "!=" : std::string(1, c) + "=";
+                tokens.push_back(tok);
+                ++i;
+            } else {
+                tok.type = (c == '>') ? TokenType::STA_GREATER :
+                           (c == '<') ? TokenType::STA_LOWER :
+                                        TokenType::UNKNOWN;
+                tok.val = std::string(1, c);
                 tokens.push_back(tok);
             }
-        }
-        else if (c == '>')
-        {
-            if (text.at(i+1) != '=')
-            {
-                tok.type = TokenType::STA_GREATER;
-                tok.val = "";
-                tokens.push_back(tok);
-            }
-            else
-            {
-                tok.type = TokenType::STA_GREATER_EQ;
-                tok.val = "";
-                tokens.push_back(tok);
-            }
-        }
-        else if (c == '<')
-        {
-            if (text.at(i+1) != '=')
-            {
-                tok.type = TokenType::STA_LOWER;
-                tok.val = "";
-                tokens.push_back(tok);
-            }
-            else
-            {
-                tok.type = TokenType::STA_LOWER_EQ;
-                tok.val = "";
-                tokens.push_back(tok);
-            }
-        }
-        else if (c == '!')
-        {
-            if (text.at(i+1) == '=')
-            {
-                tok.type = TokenType::STA_NEQUAL;
-                tok.val = "";
-                tokens.push_back(tok);
-            }
-            else
-            {
-                std::cerr << "[LEXING ERROR] character '!' isn't accompagned with an '='.";
-                exit(1);
-            }
-        }
-        else if (c == '+')
-        {
-            tok.type = TokenType::OPERATION;
-            tok.val = "+";
-            tokens.push_back(tok);
-        }
-        else if (c == '-')
-        {
-            tok.type = TokenType::OPERATION;
-            tok.val = "-";
-            tokens.push_back(tok);
-        }
-        else if (c == '*')
-        {
-            tok.type = TokenType::OPERATION;
-            tok.val = "*";
-            tokens.push_back(tok);
-        }
-        else if (c == '/')
-        {
-            tok.type = TokenType::OPERATION;
-            tok.val = "/";
-            tokens.push_back(tok);
         }
         else
         {
-            buffer.push_back(text.at(i));
-            i++;
-            while (std::isalnum(text.at(i)))
-            {
-                buffer.push_back(text.at(i));
-                i++;
+            buffer += c;
+            while (std::isalnum(text.at(i + 1))) {
+                buffer += text.at(++i);
             }
-            i--;
             
             if (buffer == "exit")
             {
