@@ -24,6 +24,11 @@ fn _start
     exit { 0 }
 }
 ```
+Compiling:
+```
+wsharp -o main -f main.ws
+./main
+```
 Which outputs to:
 ```
 Hello World!
