@@ -6,6 +6,8 @@ Parsed_TokenType Compiler::lex_to_par_for_args(TokenType type)
             return Parsed_TokenType::P_STRING;
         if (type == TokenType::NUMBER)
             return Parsed_TokenType::P_INT;
+        if (type == TokenType::REGISTER)
+            return Parsed_TokenType::P_REG;
         return Parsed_TokenType::P_NONE;
     }
 

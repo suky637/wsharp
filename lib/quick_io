@@ -8,5 +8,18 @@ writeEOL:
     mov rdx, 1
     syscall
     ret
+quickInput:
+    mov rax, 0x0
+    mov rdi, 0x0
+    mov rsi, sinput
+    mov rdx, 128
+    syscall
+
+    mov rsi, sinput
+    ret
+
+section .bss
+    sinput: resb 128
+
 section .data
     newline: db 10

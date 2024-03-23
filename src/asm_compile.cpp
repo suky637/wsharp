@@ -82,6 +82,21 @@ std::string Compiler::args_tostring(std::vector<Parsed_Token> args, std::map<std
             else if (i == 5)
                 arguments += "\tmov r9, " + args.at(i).val + "\n";
         }
+        else if (args.at(i).type == P_REG)
+        {
+            if (i == 0)
+                arguments += "\tmov rdi, " + args.at(i).val + "\n";
+            else if (i == 1)
+                arguments += "\tmov rsi, " + args.at(i).val + "\n";
+            else if (i == 2)
+                arguments += "\tmov rdx, " + args.at(i).val + "\n";
+            else if (i == 3)
+                arguments += "\tmov r10, " + args.at(i).val + "\n";
+            else if (i == 4)
+                arguments += "\tmov r8, " + args.at(i).val + "\n";
+            else if (i == 5)
+                arguments += "\tmov r9, " + args.at(i).val + "\n";
+        }
     }
     return arguments;
 }
@@ -109,8 +124,10 @@ std::string Compiler::compileToAssembly(std::vector<Parsed_Token> tokens)
                 body += "\tmov rax, 0x1\n";
 
                 body += args_tostring(tokens.at(i).params, &string_constants);
-
-                body += "\tmov rdx, " + std::to_string(tokens.at(i).params.at(1).val.size()) + "\n\tsyscall\n\n";
+                if (tokens.at(i).params.at(1).type != P_REG)
+                    body += "\tmov rdx, " + std::to_string(tokens.at(i).params.at(1).val.size()) + "\n\tsyscall\n\n";
+                else
+                    body += "\tmov rdx, " + std::to_string(128) + "\n\tsyscall\n\n";
             }
             else if (tokens.at(i).val == "exit")
             {

@@ -5,7 +5,9 @@ global _start
 
 fn _start
 {
-    write { 1, "Hello, World!\n" }
+    write { 1, "Please write any text: " }
+    quickInput {}
+    write {1, RSI}
 
     exit { 0 }
 }
