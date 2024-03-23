@@ -1,37 +1,37 @@
 [
 {
   "directory": "/home/suky/dev/compiler/wsharp/build",
-  "command": "/usr/bin/c++ -g -o CMakeFiles/wsharp.dir/src/main.cpp.o -c /home/suky/dev/compiler/wsharp/src/main.cpp",
+  "command": "/usr/bin/c++ -DUNICODE -D_UNICODE -g -o CMakeFiles/wsharp.dir/src/main.cpp.o -c /home/suky/dev/compiler/wsharp/src/main.cpp",
   "file": "/home/suky/dev/compiler/wsharp/src/main.cpp",
   "output": "CMakeFiles/wsharp.dir/src/main.cpp.o"
 },
 {
   "directory": "/home/suky/dev/compiler/wsharp/build",
-  "command": "/usr/bin/c++ -g -o CMakeFiles/wsharp.dir/src/asm_compile.cpp.o -c /home/suky/dev/compiler/wsharp/src/asm_compile.cpp",
+  "command": "/usr/bin/c++ -DUNICODE -D_UNICODE -g -o CMakeFiles/wsharp.dir/src/asm_compile.cpp.o -c /home/suky/dev/compiler/wsharp/src/asm_compile.cpp",
   "file": "/home/suky/dev/compiler/wsharp/src/asm_compile.cpp",
   "output": "CMakeFiles/wsharp.dir/src/asm_compile.cpp.o"
 },
 {
   "directory": "/home/suky/dev/compiler/wsharp/build",
-  "command": "/usr/bin/c++ -g -o CMakeFiles/wsharp.dir/src/file_output.cpp.o -c /home/suky/dev/compiler/wsharp/src/file_output.cpp",
+  "command": "/usr/bin/c++ -DUNICODE -D_UNICODE -g -o CMakeFiles/wsharp.dir/src/file_output.cpp.o -c /home/suky/dev/compiler/wsharp/src/file_output.cpp",
   "file": "/home/suky/dev/compiler/wsharp/src/file_output.cpp",
   "output": "CMakeFiles/wsharp.dir/src/file_output.cpp.o"
 },
 {
   "directory": "/home/suky/dev/compiler/wsharp/build",
-  "command": "/usr/bin/c++ -g -o CMakeFiles/wsharp.dir/src/global_functions.cpp.o -c /home/suky/dev/compiler/wsharp/src/global_functions.cpp",
+  "command": "/usr/bin/c++ -DUNICODE -D_UNICODE -g -o CMakeFiles/wsharp.dir/src/global_functions.cpp.o -c /home/suky/dev/compiler/wsharp/src/global_functions.cpp",
   "file": "/home/suky/dev/compiler/wsharp/src/global_functions.cpp",
   "output": "CMakeFiles/wsharp.dir/src/global_functions.cpp.o"
 },
 {
   "directory": "/home/suky/dev/compiler/wsharp/build",
-  "command": "/usr/bin/c++ -g -o CMakeFiles/wsharp.dir/src/lexer.cpp.o -c /home/suky/dev/compiler/wsharp/src/lexer.cpp",
+  "command": "/usr/bin/c++ -DUNICODE -D_UNICODE -g -o CMakeFiles/wsharp.dir/src/lexer.cpp.o -c /home/suky/dev/compiler/wsharp/src/lexer.cpp",
   "file": "/home/suky/dev/compiler/wsharp/src/lexer.cpp",
   "output": "CMakeFiles/wsharp.dir/src/lexer.cpp.o"
 },
 {
   "directory": "/home/suky/dev/compiler/wsharp/build",
-  "command": "/usr/bin/c++ -g -o CMakeFiles/wsharp.dir/src/parser.cpp.o -c /home/suky/dev/compiler/wsharp/src/parser.cpp",
+  "command": "/usr/bin/c++ -DUNICODE -D_UNICODE -g -o CMakeFiles/wsharp.dir/src/parser.cpp.o -c /home/suky/dev/compiler/wsharp/src/parser.cpp",
   "file": "/home/suky/dev/compiler/wsharp/src/parser.cpp",
   "output": "CMakeFiles/wsharp.dir/src/parser.cpp.o"
 }

@@ -1,9 +1,11 @@
+global funcwriteInt
+
 section .bss
     digitSpace resb 100
     digitSpacePos resb 8
 
 section .text
-writeInt:
+funcwriteInt:
     mov rcx, digitSpace
     mov rbx, 10
     mov [rcx], rbx

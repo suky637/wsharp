@@ -168,10 +168,28 @@ std::vector<Token> Compiler::lexer(std::string text)
                 tok.val = "R9";
                 tokens.push_back(tok);
             }
+            else if (buffer == "RBX")
+            {
+                tok.type = TokenType::REGISTER;
+                tok.val = "RBX";
+                tokens.push_back(tok);
+            }
             else if (buffer == "return")
             {
                 tok.type = TokenType::RETURN;
                 tok.val = "R9";
+                tokens.push_back(tok);
+            }
+            else if (buffer == "push")
+            {
+                tok.type = TokenType::PUSH;
+                tok.val = "";
+                tokens.push_back(tok);
+            }
+            else if (buffer == "pop")
+            {
+                tok.type = TokenType::POP;
+                tok.val = "";
                 tokens.push_back(tok);
             }
             else if (buffer == "using")

@@ -22,8 +22,7 @@ void Compiler::outputToFile(std::string compiled_code, char** argv, std::vector<
         std::string path_rel = argv[0];
         path_rel = path_rel.substr(2, path_rel.size()-2);
     
-        std::string path_abs = std::filesystem::absolute(path_rel).string();
-
+        auto dir = std::filesystem::weakly_canonical(std::filesystem::path(argv[0])).parent_path().parent_path().string() + "/lib/";
         // Checking for other files (mainly ASM then W#)
         std::vector<std::string> include_files = get_include_files(ptokens);
         for (auto const& v : include_files)
@@ -34,7 +33,10 @@ void Compiler::outputToFile(std::string compiled_code, char** argv, std::vector<
             }
             else
             {
-                std::string lib = readFile(path_abs.substr(0, path_abs.size()-10) + "lib/" + v);
+                
+                
+                std::string lib = readFile(dir + v);
+                
                 std::ofstream outLib(v);
                 outLib << lib;
                 outLib.close();

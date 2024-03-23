@@ -1,0 +1,6 @@
+section .text
+funcdivide:
+    ; rbx / rdx
+    div rbx
+    ; rdx high / rbx low
+    ret

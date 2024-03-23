@@ -109,16 +109,16 @@ std::string Compiler::compileToAssembly(std::vector<Parsed_Token> tokens)
     std::string constants = "\nsection .data\n";
     for (int i = 0; i < tokens.size(); i++)
     {
-        if (tokens.at(i).type == P_GLOBAL)
+        const Parsed_TokenType& tok_type = tokens.at(i).type;
+        switch (tok_type)
         {
-            header += "global " + tokens.at(i).val + "\n";
-        }
-        else if (tokens.at(i).type == P_FUNCTION)
-        {
+        case P_FUNCTION:
             body += tokens.at(i).val + ":\n";
-        }
-        else if (tokens.at(i).type == P_SYSCALL)
-        {
+            break;
+        case P_GLOBAL:
+            header += "global " + tokens.at(i).val + "\n";
+            break;
+        case P_SYSCALL:
             if (tokens.at(i).val == "write")
             {
                 body += "\tmov rax, 0x1\n";
@@ -135,31 +135,38 @@ std::string Compiler::compileToAssembly(std::vector<Parsed_Token> tokens)
                 body += args_tostring(tokens.at(i).params, &string_constants);
                 body += "\tsyscall\n\n";
             }
-        }
-        else if (tokens.at(i).type == P_SET_REG)
-        {
+            break;
+        case P_SET_REG:
             body += "\tmov " + tokens.at(i).val + ", " + tokens.at(i).params.at(0).val + "\n";
-        }
-        else if (tokens.at(i).type == P_ADD)
-        {
+            break;
+        case P_ADD:
             body += "\tadd " + tokens.at(i).val + ", " + tokens.at(i).params.at(0).val + "\n";
-        }
-        else if (tokens.at(i).type == P_SUB)
-        {
+            break;
+        case P_SUB:
             body += "\tsub " + tokens.at(i).val + ", " + tokens.at(i).params.at(0).val + "\n";
-        }
-        else if (tokens.at(i).type == P_EOF)
-        {
+            break;
+        case P_EOF:
             body += "\tret\n\n";
-        }
-        else if (tokens.at(i).type == P_CALL)
-        {
+            break;
+        case P_CALL:
             body += args_tostring(tokens.at(i).params, &string_constants);
             body += "\tcall " + tokens.at(i).val + "\n\n";
-        }
-        else if (tokens.at(i).type == P_INCLUDE)
-        {
+            break;
+        case P_INCLUDE:
             header += "%include \"" + tokens.at(i).val + "\"\n";
+            break;
+        case P_IF:
+            body += "\tcmp " + tokens.at(i).params.at(0).val + ", " + tokens.at(i).params.at(1).val + "\n";
+            body += "\t" + tokens.at(i).val + " func" + tokens.at(i).params.at(2).val + "\n";
+            break;
+        case P_PUSH:
+            body += "\tpush " + tokens.at(i).val + "\n";
+            break;
+        case P_POP:
+            body += "\tpop " + tokens.at(i).val + "\n";
+            break;
+        default:
+            break;
         }
     }
 

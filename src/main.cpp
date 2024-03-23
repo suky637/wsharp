@@ -17,11 +17,9 @@ void printHelp() {
     std::cout << "Usage: program_name [options]\n";
     std::cout << "Options:\n";
     std::cout << "  -o <output_file>    Output file\n";
-    std::cout << "  -asm                Output as x86_64 ASM\n";
+    std::cout << "  -asm                Keep Assembly x86_64 generated file/files\n";
     std::cout << "  -f <input_file>     Choose the file to input\n";
     std::cout << "  -gcc                Choose GCC as the Linker instead of LD\n";
-    std::cout << "  -debug              Enable debug mode\n";
-    std::cout << "  -show-tokens        Show tokens\n";
 }
 
 int main(int argc, char* argv[])

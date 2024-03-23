@@ -51,7 +51,10 @@ std::vector<Parsed_Token> Compiler::parser(std::vector<Token> tokens)
         if (tokens.at(i).type == TokenType::FUNCTION && tokens.at(i+1).type == TokenType::UNKNOWN && tokens.at(i+2).type == TokenType::START_BLOCK)
         {
             buffer.type = P_FUNCTION;
-            buffer.val = tokens.at(i+1).val;
+            if (tokens.at(i+1).val == "_start" || tokens.at(i+1).val == "main")
+                buffer.val = tokens.at(i+1).val;
+            else
+                buffer.val = "func" + tokens.at(i+1).val;
             ptokens.push_back(buffer);
 
             i += 3;
@@ -79,7 +82,7 @@ std::vector<Parsed_Token> Compiler::parser(std::vector<Token> tokens)
         else if (tokens.at(i).type == TokenType::UNKNOWN && tokens.at(i+1).type == TokenType::START_BLOCK)
         {
             buffer.type = Parsed_TokenType::P_CALL;
-            buffer.val = tokens.at(i).val;
+            buffer.val = "func" + tokens.at(i).val;
 
             // TODO: do it to any functions
             if (tokens.at(i+1).type == TokenType::START_BLOCK && tokens.at(i+2).type == TokenType::END_BLOCK)
@@ -161,6 +164,16 @@ std::vector<Parsed_Token> Compiler::parser(std::vector<Token> tokens)
             }
 
             i += 4;
+            if (tokens.at(i).type == TokenType::START_BLOCK)
+            {
+                i++;
+                Parsed_Token pt{};
+                pt.val = tokens.at(i).val;
+                pt.type = Parsed_TokenType::P_CALL;
+                buffer.params.push_back(pt);
+                i+=2;
+            }
+            ptokens.push_back(buffer);
         }
         else if (tokens.at(i).type == TokenType::REGISTER && tokens.at(i+1).type == TokenType::EQUAL)
         {
@@ -174,7 +187,9 @@ std::vector<Parsed_Token> Compiler::parser(std::vector<Token> tokens)
                 c_pt.val = tokens.at(i+2).val;
 
                 buffer.params.push_back(c_pt);
+                
                 ptokens.push_back(buffer);
+                buffer = {};
                 
                 if (tokens.at(i+3).type == TokenType::OPERATION)
                 {
@@ -220,13 +235,14 @@ std::vector<Parsed_Token> Compiler::parser(std::vector<Token> tokens)
                                 
                             }
                             lc_pt.val = tokens.at(j).val;
+                            std::cout << lc_pt.val << "\n";
                             buffer.params.push_back(lc_pt);
                             ptokens.push_back(buffer);
                         }
                         operation = !operation;
                         j++;
-                        i++;
                     }
+                    i = j-3;
                 }
                 i += 3;
             }
@@ -275,6 +291,20 @@ std::vector<Parsed_Token> Compiler::parser(std::vector<Token> tokens)
 
             ptokens.push_back(buffer);
             
+        }
+        else if (tokens.at(i).type == PUSH && tokens.at(i+1).type == REGISTER)
+        {
+            buffer.type = P_PUSH;
+            buffer.val = tokens.at(i+1).val;
+            ptokens.push_back(buffer);
+            i += 2;
+        }
+        else if (tokens.at(i).type == POP && tokens.at(i+1).type == REGISTER)
+        {
+            buffer.type = P_POP;
+            buffer.val = tokens.at(i+1).val;
+            ptokens.push_back(buffer);
+            i += 2;
         }
         else
         {

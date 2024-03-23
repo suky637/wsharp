@@ -26,7 +26,9 @@ enum TokenType
     STA_LOWER,
     STA_GREATER_EQ,
     STA_LOWER_EQ,
-    STA_NEQUAL
+    STA_NEQUAL,
+    PUSH,
+    POP
 };
 
 struct Token
@@ -58,7 +60,9 @@ enum Parsed_TokenType
     P_DIV,
     P_INCLUDE,
     P_IF,
-    P_REG
+    P_REG,
+    P_PUSH,
+    P_POP
 };
 
 struct Parsed_Token
