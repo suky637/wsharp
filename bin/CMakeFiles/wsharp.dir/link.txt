@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/wsharp.dir/src/main.cpp.o -o wsharp 
+/usr/bin/c++ CMakeFiles/wsharp.dir/src/main.cpp.o CMakeFiles/wsharp.dir/src/asm_compile.cpp.o CMakeFiles/wsharp.dir/src/file_output.cpp.o CMakeFiles/wsharp.dir/src/global_functions.cpp.o CMakeFiles/wsharp.dir/src/lexer.cpp.o CMakeFiles/wsharp.dir/src/parser.cpp.o -o wsharp 

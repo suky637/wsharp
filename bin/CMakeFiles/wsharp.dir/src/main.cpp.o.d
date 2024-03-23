@@ -199,4 +199,10 @@ CMakeFiles/wsharp.dir/src/main.cpp.o: \
  /usr/include/c++/13.2.0/bits/allocated_ptr.h \
  /usr/include/c++/13.2.0/bits/unique_ptr.h \
  /usr/include/c++/13.2.0/bits/fs_dir.h \
- /usr/include/c++/13.2.0/bits/fs_ops.h
+ /usr/include/c++/13.2.0/bits/fs_ops.h /usr/include/c++/13.2.0/chrono \
+ /home/suky/dev/compiler/wsharp/src/types.hpp \
+ /home/suky/dev/compiler/wsharp/src/lexer.hpp \
+ /home/suky/dev/compiler/wsharp/src/parser.hpp \
+ /home/suky/dev/compiler/wsharp/src/asm_compile.hpp \
+ /home/suky/dev/compiler/wsharp/src/global_functions.hpp \
+ /home/suky/dev/compiler/wsharp/src/file_output.hpp

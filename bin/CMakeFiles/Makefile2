@@ -81,12 +81,12 @@ clean: CMakeFiles/wsharp.dir/clean
 CMakeFiles/wsharp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wsharp.dir/build.make CMakeFiles/wsharp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wsharp.dir/build.make CMakeFiles/wsharp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/suky/dev/compiler/wsharp/bin/CMakeFiles --progress-num=1,2 "Built target wsharp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/suky/dev/compiler/wsharp/bin/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target wsharp"
 .PHONY : CMakeFiles/wsharp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/wsharp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/compiler/wsharp/bin/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/compiler/wsharp/bin/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/wsharp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/compiler/wsharp/bin/CMakeFiles 0
 .PHONY : CMakeFiles/wsharp.dir/rule

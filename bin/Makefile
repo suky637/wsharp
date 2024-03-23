@@ -129,6 +129,102 @@ wsharp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wsharp.dir/build.make CMakeFiles/wsharp.dir/build
 .PHONY : wsharp/fast
 
+src/asm_compile.o: src/asm_compile.cpp.o
+.PHONY : src/asm_compile.o
+
+# target to build an object file
+src/asm_compile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wsharp.dir/build.make CMakeFiles/wsharp.dir/src/asm_compile.cpp.o
+.PHONY : src/asm_compile.cpp.o
+
+src/asm_compile.i: src/asm_compile.cpp.i
+.PHONY : src/asm_compile.i
+
+# target to preprocess a source file
+src/asm_compile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wsharp.dir/build.make CMakeFiles/wsharp.dir/src/asm_compile.cpp.i
+.PHONY : src/asm_compile.cpp.i
+
+src/asm_compile.s: src/asm_compile.cpp.s
+.PHONY : src/asm_compile.s
+
+# target to generate assembly for a file
+src/asm_compile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wsharp.dir/build.make CMakeFiles/wsharp.dir/src/asm_compile.cpp.s
+.PHONY : src/asm_compile.cpp.s
+
+src/file_output.o: src/file_output.cpp.o
+.PHONY : src/file_output.o
+
+# target to build an object file
+src/file_output.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wsharp.dir/build.make CMakeFiles/wsharp.dir/src/file_output.cpp.o
+.PHONY : src/file_output.cpp.o
+
+src/file_output.i: src/file_output.cpp.i
+.PHONY : src/file_output.i
+
+# target to preprocess a source file
+src/file_output.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wsharp.dir/build.make CMakeFiles/wsharp.dir/src/file_output.cpp.i
+.PHONY : src/file_output.cpp.i
+
+src/file_output.s: src/file_output.cpp.s
+.PHONY : src/file_output.s
+
+# target to generate assembly for a file
+src/file_output.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wsharp.dir/build.make CMakeFiles/wsharp.dir/src/file_output.cpp.s
+.PHONY : src/file_output.cpp.s
+
+src/global_functions.o: src/global_functions.cpp.o
+.PHONY : src/global_functions.o
+
+# target to build an object file
+src/global_functions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wsharp.dir/build.make CMakeFiles/wsharp.dir/src/global_functions.cpp.o
+.PHONY : src/global_functions.cpp.o
+
+src/global_functions.i: src/global_functions.cpp.i
+.PHONY : src/global_functions.i
+
+# target to preprocess a source file
+src/global_functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wsharp.dir/build.make CMakeFiles/wsharp.dir/src/global_functions.cpp.i
+.PHONY : src/global_functions.cpp.i
+
+src/global_functions.s: src/global_functions.cpp.s
+.PHONY : src/global_functions.s
+
+# target to generate assembly for a file
+src/global_functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wsharp.dir/build.make CMakeFiles/wsharp.dir/src/global_functions.cpp.s
+.PHONY : src/global_functions.cpp.s
+
+src/lexer.o: src/lexer.cpp.o
+.PHONY : src/lexer.o
+
+# target to build an object file
+src/lexer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wsharp.dir/build.make CMakeFiles/wsharp.dir/src/lexer.cpp.o
+.PHONY : src/lexer.cpp.o
+
+src/lexer.i: src/lexer.cpp.i
+.PHONY : src/lexer.i
+
+# target to preprocess a source file
+src/lexer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wsharp.dir/build.make CMakeFiles/wsharp.dir/src/lexer.cpp.i
+.PHONY : src/lexer.cpp.i
+
+src/lexer.s: src/lexer.cpp.s
+.PHONY : src/lexer.s
+
+# target to generate assembly for a file
+src/lexer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wsharp.dir/build.make CMakeFiles/wsharp.dir/src/lexer.cpp.s
+.PHONY : src/lexer.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -153,6 +249,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wsharp.dir/build.make CMakeFiles/wsharp.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/parser.o: src/parser.cpp.o
+.PHONY : src/parser.o
+
+# target to build an object file
+src/parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wsharp.dir/build.make CMakeFiles/wsharp.dir/src/parser.cpp.o
+.PHONY : src/parser.cpp.o
+
+src/parser.i: src/parser.cpp.i
+.PHONY : src/parser.i
+
+# target to preprocess a source file
+src/parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wsharp.dir/build.make CMakeFiles/wsharp.dir/src/parser.cpp.i
+.PHONY : src/parser.cpp.i
+
+src/parser.s: src/parser.cpp.s
+.PHONY : src/parser.s
+
+# target to generate assembly for a file
+src/parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wsharp.dir/build.make CMakeFiles/wsharp.dir/src/parser.cpp.s
+.PHONY : src/parser.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +282,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... wsharp"
+	@echo "... src/asm_compile.o"
+	@echo "... src/asm_compile.i"
+	@echo "... src/asm_compile.s"
+	@echo "... src/file_output.o"
+	@echo "... src/file_output.i"
+	@echo "... src/file_output.s"
+	@echo "... src/global_functions.o"
+	@echo "... src/global_functions.i"
+	@echo "... src/global_functions.s"
+	@echo "... src/lexer.o"
+	@echo "... src/lexer.i"
+	@echo "... src/lexer.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/parser.o"
+	@echo "... src/parser.i"
+	@echo "... src/parser.s"
 .PHONY : help
 
 

@@ -83,17 +83,97 @@ CMakeFiles/wsharp.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/wsharp.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suky/dev/compiler/wsharp/src/main.cpp -o CMakeFiles/wsharp.dir/src/main.cpp.s
 
+CMakeFiles/wsharp.dir/src/asm_compile.cpp.o: CMakeFiles/wsharp.dir/flags.make
+CMakeFiles/wsharp.dir/src/asm_compile.cpp.o: /home/suky/dev/compiler/wsharp/src/asm_compile.cpp
+CMakeFiles/wsharp.dir/src/asm_compile.cpp.o: CMakeFiles/wsharp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/suky/dev/compiler/wsharp/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/wsharp.dir/src/asm_compile.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/wsharp.dir/src/asm_compile.cpp.o -MF CMakeFiles/wsharp.dir/src/asm_compile.cpp.o.d -o CMakeFiles/wsharp.dir/src/asm_compile.cpp.o -c /home/suky/dev/compiler/wsharp/src/asm_compile.cpp
+
+CMakeFiles/wsharp.dir/src/asm_compile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/wsharp.dir/src/asm_compile.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suky/dev/compiler/wsharp/src/asm_compile.cpp > CMakeFiles/wsharp.dir/src/asm_compile.cpp.i
+
+CMakeFiles/wsharp.dir/src/asm_compile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/wsharp.dir/src/asm_compile.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suky/dev/compiler/wsharp/src/asm_compile.cpp -o CMakeFiles/wsharp.dir/src/asm_compile.cpp.s
+
+CMakeFiles/wsharp.dir/src/file_output.cpp.o: CMakeFiles/wsharp.dir/flags.make
+CMakeFiles/wsharp.dir/src/file_output.cpp.o: /home/suky/dev/compiler/wsharp/src/file_output.cpp
+CMakeFiles/wsharp.dir/src/file_output.cpp.o: CMakeFiles/wsharp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/suky/dev/compiler/wsharp/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/wsharp.dir/src/file_output.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/wsharp.dir/src/file_output.cpp.o -MF CMakeFiles/wsharp.dir/src/file_output.cpp.o.d -o CMakeFiles/wsharp.dir/src/file_output.cpp.o -c /home/suky/dev/compiler/wsharp/src/file_output.cpp
+
+CMakeFiles/wsharp.dir/src/file_output.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/wsharp.dir/src/file_output.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suky/dev/compiler/wsharp/src/file_output.cpp > CMakeFiles/wsharp.dir/src/file_output.cpp.i
+
+CMakeFiles/wsharp.dir/src/file_output.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/wsharp.dir/src/file_output.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suky/dev/compiler/wsharp/src/file_output.cpp -o CMakeFiles/wsharp.dir/src/file_output.cpp.s
+
+CMakeFiles/wsharp.dir/src/global_functions.cpp.o: CMakeFiles/wsharp.dir/flags.make
+CMakeFiles/wsharp.dir/src/global_functions.cpp.o: /home/suky/dev/compiler/wsharp/src/global_functions.cpp
+CMakeFiles/wsharp.dir/src/global_functions.cpp.o: CMakeFiles/wsharp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/suky/dev/compiler/wsharp/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/wsharp.dir/src/global_functions.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/wsharp.dir/src/global_functions.cpp.o -MF CMakeFiles/wsharp.dir/src/global_functions.cpp.o.d -o CMakeFiles/wsharp.dir/src/global_functions.cpp.o -c /home/suky/dev/compiler/wsharp/src/global_functions.cpp
+
+CMakeFiles/wsharp.dir/src/global_functions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/wsharp.dir/src/global_functions.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suky/dev/compiler/wsharp/src/global_functions.cpp > CMakeFiles/wsharp.dir/src/global_functions.cpp.i
+
+CMakeFiles/wsharp.dir/src/global_functions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/wsharp.dir/src/global_functions.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suky/dev/compiler/wsharp/src/global_functions.cpp -o CMakeFiles/wsharp.dir/src/global_functions.cpp.s
+
+CMakeFiles/wsharp.dir/src/lexer.cpp.o: CMakeFiles/wsharp.dir/flags.make
+CMakeFiles/wsharp.dir/src/lexer.cpp.o: /home/suky/dev/compiler/wsharp/src/lexer.cpp
+CMakeFiles/wsharp.dir/src/lexer.cpp.o: CMakeFiles/wsharp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/suky/dev/compiler/wsharp/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/wsharp.dir/src/lexer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/wsharp.dir/src/lexer.cpp.o -MF CMakeFiles/wsharp.dir/src/lexer.cpp.o.d -o CMakeFiles/wsharp.dir/src/lexer.cpp.o -c /home/suky/dev/compiler/wsharp/src/lexer.cpp
+
+CMakeFiles/wsharp.dir/src/lexer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/wsharp.dir/src/lexer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suky/dev/compiler/wsharp/src/lexer.cpp > CMakeFiles/wsharp.dir/src/lexer.cpp.i
+
+CMakeFiles/wsharp.dir/src/lexer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/wsharp.dir/src/lexer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suky/dev/compiler/wsharp/src/lexer.cpp -o CMakeFiles/wsharp.dir/src/lexer.cpp.s
+
+CMakeFiles/wsharp.dir/src/parser.cpp.o: CMakeFiles/wsharp.dir/flags.make
+CMakeFiles/wsharp.dir/src/parser.cpp.o: /home/suky/dev/compiler/wsharp/src/parser.cpp
+CMakeFiles/wsharp.dir/src/parser.cpp.o: CMakeFiles/wsharp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/suky/dev/compiler/wsharp/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/wsharp.dir/src/parser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/wsharp.dir/src/parser.cpp.o -MF CMakeFiles/wsharp.dir/src/parser.cpp.o.d -o CMakeFiles/wsharp.dir/src/parser.cpp.o -c /home/suky/dev/compiler/wsharp/src/parser.cpp
+
+CMakeFiles/wsharp.dir/src/parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/wsharp.dir/src/parser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suky/dev/compiler/wsharp/src/parser.cpp > CMakeFiles/wsharp.dir/src/parser.cpp.i
+
+CMakeFiles/wsharp.dir/src/parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/wsharp.dir/src/parser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suky/dev/compiler/wsharp/src/parser.cpp -o CMakeFiles/wsharp.dir/src/parser.cpp.s
+
 # Object files for target wsharp
 wsharp_OBJECTS = \
-"CMakeFiles/wsharp.dir/src/main.cpp.o"
+"CMakeFiles/wsharp.dir/src/main.cpp.o" \
+"CMakeFiles/wsharp.dir/src/asm_compile.cpp.o" \
+"CMakeFiles/wsharp.dir/src/file_output.cpp.o" \
+"CMakeFiles/wsharp.dir/src/global_functions.cpp.o" \
+"CMakeFiles/wsharp.dir/src/lexer.cpp.o" \
+"CMakeFiles/wsharp.dir/src/parser.cpp.o"
 
 # External object files for target wsharp
 wsharp_EXTERNAL_OBJECTS =
 
 wsharp: CMakeFiles/wsharp.dir/src/main.cpp.o
+wsharp: CMakeFiles/wsharp.dir/src/asm_compile.cpp.o
+wsharp: CMakeFiles/wsharp.dir/src/file_output.cpp.o
+wsharp: CMakeFiles/wsharp.dir/src/global_functions.cpp.o
+wsharp: CMakeFiles/wsharp.dir/src/lexer.cpp.o
+wsharp: CMakeFiles/wsharp.dir/src/parser.cpp.o
 wsharp: CMakeFiles/wsharp.dir/build.make
 wsharp: CMakeFiles/wsharp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/suky/dev/compiler/wsharp/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable wsharp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/suky/dev/compiler/wsharp/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable wsharp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wsharp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

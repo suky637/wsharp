@@ -1,0 +1,12 @@
+global writeEOL
+
+section .text
+writeEOL:
+    mov rax, 0x1
+    mov rdi, 0x1
+    mov rsi, newline
+    mov rdx, 1
+    syscall
+    ret
+section .data
+    newline: db 10

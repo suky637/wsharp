@@ -40,6 +40,6 @@ _printRAXLoop2:
     mov [digitSpacePos], rcx
 
     cmp rcx, digitSpace
-    jge _printRAXLoop2
+    jg _printRAXLoop2
 
     ret
