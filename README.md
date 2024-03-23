@@ -5,7 +5,7 @@ The goal of this language is to bring low-level to an higher level by keeping th
 
 Why should you use this language?
 
-*because it can be use as a gateway between higher level language and assembly*
+*because it can be use as a gateway between higher level language and assembly.*
 
 
 
@@ -13,7 +13,7 @@ Why should you use this language?
 - A linux machine
 - A x86_64 CPU
 - NASM
-- GCC (Optionnal)
+- GCC (Optional)
 
 # Example code
 ```
@@ -47,3 +47,17 @@ This is printing a number from external lib:
 # Getting Started
 
 **TODO**
+
+# Important notes
+
+If you are using GCC as linker, the main function will be "main". if you're using the default one, *ld* it is "_start".
+
+# Q&A
+
+- Why is *GCC* Optional?
+
+Because you can use *ld* as the linker (default linker).
+
+- In what language is it compiled to?
+
+The language is compiled to Assembly, that is why it currently only supports x86_64.
