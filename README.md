@@ -4,7 +4,10 @@ this is a W.I.P. Programming language
 The goal of this language is to bring low-level to an higher level by keeping the low-level things.
 
 Why should you use this language?
+
 *because it can be use as a gateway between higher level language and assembly*
+
+
 
 # Install Requirement
 - A linux machine
